@@ -1,9 +1,19 @@
 # Kali Box with some tools for Reverse Engineering
 
+## Requirements
 
+- Virtualbox
+- Other hypervisor supported by Vagrant (need to modify the Vagrantfile)
 
-# Credits
+## Usage
+
+```
+vagrant up
+vagrant ssh
+```
+
+## Credits
 
 - Everyone that developed the tools included
 - https://hub.docker.com/u/nasmre/rebox
-- Rootfs files belong to their respective owner and are packed for convenience
+- Rootfs files belong to their respective owners and are packed for convenience

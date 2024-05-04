@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     echo 'Installing base tools'
     apt-get update
-    apt install -y ghidra binutils ltrace gdb-multiarch  python3-pip docker.io apktool edb-debugger jd-gui jdax wireshark qemu-user qemu-system imhex pulseview zaproxy 
+    apt install -y ghidra binutils ltrace gdb-multiarch  python3-pip docker.io apktool edb-debugger jd-gui jadx wireshark qemu-user qemu-system imhex pulseview zaproxy 
 
     echo "Installing GEF"
     sudo -u vagrant bash -c "$(curl -fsSL https://gef.blah.cat/sh)"

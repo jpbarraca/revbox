@@ -18,7 +18,7 @@ vagrant ssh
 ```
 
 You will get a VM with tools and the `host` folder mapped into `/host`.
-This version will include GUI tools.
+This version will also include `docker.io`
 
 ## Usage with Docker
 
@@ -28,7 +28,6 @@ docker run -it -v ./host:/host revbox
 ```
 
 You will get a Docker container with tools and the `host` folder mapped into `/host`.
-This version will not include tools requiring a GUI
 
 ## Credits
 

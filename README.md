@@ -12,6 +12,13 @@ vagrant up
 vagrant ssh
 ```
 
+## Docker
+
+```
+docker build -t revbox .
+docker run -it revbox
+```
+
 ## Credits
 
 - Everyone that developed the tools included
